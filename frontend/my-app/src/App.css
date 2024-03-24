@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  height: 100vh;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upper-dashboard {
+  height: 10%;
+  padding: 0%;
+  width: 99.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.buttons {
+  margin: 1%;
+  font-size: large;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.buttons:hover {
+  background-color: lightgreen;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  width: 300px;
+  margin-right: 10px;
+}
+.input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.responsebox {
+  border: 2px solid gray;
+  margin-top: 2%;
+  width: 50%;
+  height: 30%;
+}
